@@ -1,0 +1,41 @@
+/* XPM */
+static char *colours_xpm[] = {
+/* width height num_colors chars_per_pixel */
+"    42    29        4            1",
+/* colors */
+". c #000000",
+"# c #c0c0c0",
+"a c #808080",
+"b c #ffffff",
+/* pixels */
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb",
+"...........aaaaaaaaaa###########bbbbbbbbbb"
+};
+

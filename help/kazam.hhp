@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=kazam.hhc
+Compiled file=kazam.chm
+Default Window=kazamHelp
+Default topic=kazam.htm
+Index file=kazam.hhk
+Title=Kazam
+
+[WINDOWS]
+kazamHelp=,"kazam.hhc","kazam.hhk","kazam.htm",,,,,,0x2420,,0x380e,,,,,0,,,
+
+[FILES]
+kazam.htm
+kazam1.htm
+kazam2.htm
+kazam3.htm
+kazam4.htm
+kazam5.htm
+kazam6.htm
+kazam7.htm

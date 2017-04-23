@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kazam", "kazam.vcproj", "{08C5F704-A39C-4CAE-9FA7-1727DE84075C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug DLL = Debug DLL
+		Release = Release
+		Release DLL = Release DLL
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Debug.ActiveCfg = Debug|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Debug.Build.0 = Debug|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Debug DLL.ActiveCfg = Debug DLL|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Debug DLL.Build.0 = Debug DLL|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Release.ActiveCfg = Release|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Release.Build.0 = Release|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Release DLL.ActiveCfg = Release DLL|Win32
+		{08C5F704-A39C-4CAE-9FA7-1727DE84075C}.Release DLL.Build.0 = Release DLL|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

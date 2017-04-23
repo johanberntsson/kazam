@@ -1,0 +1,24 @@
+/* XPM */
+static char *compile_xpm[]={
+"16 16 4 1",
+"a c #4a4c4a",
+"# c #737573",
+". c #dedede",
+"b c #ffffff",
+".#...#...#...#..",
+"...#...#...#....",
+".#...#...#...#..",
+"....#..#..#.....",
+"a...#.....#...a.",
+"a.#####.#####.a.",
+"a..###...###..a.",
+"a.b.#.b.b.#.b.a.",
+"ab.b.b.b.b.b.ba.",
+"abababababababa.",
+"abbbbbbbbbbbbba.",
+"abababababababa.",
+"abbbbbbbbbbbbba.",
+"aaaaaaaaaaaaaaa.",
+"................",
+"................"};
+

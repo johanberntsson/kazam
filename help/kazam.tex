@@ -1,0 +1,82 @@
+\documentstyle[a4,makeidx,verbatim,texhelp,fancyhea,mysober,mytitle]{report}%
+\parskip=10pt%
+\parindent=0pt%
+\title{Kazam}%
+\author{(c) 2003 Johan Berntsson}%
+\makeindex%
+\begin{document}%
+\maketitle%
+\pagestyle{fancyplain}%
+\bibliographystyle{plain}%
+\pagenumbering{roman}%
+\setheader{{\it CONTENTS}}{}{}{}{}{{\it CONTENTS}}%
+\setfooter{\thepage}{}{}{}{}{\thepage}%
+\tableofcontents%
+
+\chapter{Introduction}\label{introduction}
+\pagenumbering{arabic}%
+\setheader{{\it CHAPTER \thechapter}}{}{}{}{}{{\it CHAPTER \thechapter}}%
+\setfooter{\thepage}{}{}{}{}{\thepage}%
+
+Kazam is a visual editor and project manager for interactive game creation with Inform.
+It is developed with the wxWindows cross-platform GUI package, and there will be versions
+for Linux and Macintosh available once the program is stable.
+
+Kazam operates on Inform source files. When opening a source file it is read into
+memory. Every change in editors like the room editor or the property pages is directly
+inserted in the memory copy of the source file. The memory copy will be save to file
+when the user selects Save. The status of all source files will be checked before Build,
+and any updated sources will be written to file before compiling. 
+
+\chapter{Getting Started}\label{gettingstarted}
+\pagenumbering{arabic}%
+\setheader{{\it CHAPTER \thechapter}}{}{}{}{}{{\it CHAPTER \thechapter}}%
+\setfooter{\thepage}{}{}{}{}{\thepage}%
+Download the latest version and use Edit/Preferences to set up your Inform compiler/interpreter. Use File/Open
+to load the attached test file "game.inf". 
+
+\chapter{Notebooks}\label{notebooks}
+\pagenumbering{arabic}%
+\setheader{{\it CHAPTER \thechapter}}{}{}{}{}{{\it CHAPTER \thechapter}}%
+\setfooter{\thepage}{}{}{}{}{\thepage}%
+
+All editing and data presentation takes place in notebooks, specific for each Inform data type. 
+
+\section{Room}\label{roomnotebook}
+From this notebook you can add, remove and edit rooms in your game. It consists of three views:
+
+\subsection{Map View}\label{mapview}
+From the map view all rooms can be displayed and edited. The Map menu will be inserted
+in the menu bar whenever this room is active, and from it you can add and delete rooms
+and connections. You can also modify the canvas size and zoom in and out.
+
+Auto arrange will relocate all rooms to locations based on their connections, as defined
+by n_to etc in the objects themselves. Some manual modifications will probably be required,
+but it is a good way of providing reasonable defaults when importing files that
+don't have location information into Kazam.
+
+How to:
+\begin{itemize}
+\item Add a room: left double click on an empty square
+\item Add a connection: left click on a direction hotspot and drag to another room's hotspot
+\item Add a door: press shift and add a connection
+\item Select a room: left click on the room
+\item Select a connection: left click on the hotspot
+\item Edit a room: double left click on the room
+\item Move a room: left click and drag to an empty square
+\item Delete a room: select the room and choose Delete from the menu
+\item Delete a connection: select the connection and choose Delete from the menu
+\end{itemize}
+
+\subsection{Properties}\label{roomproperties}
+The directions, ID, dictionary words etc can be edited here.
+
+\subsection{Source Code}\label{roomsource}
+Here you can edit the source code directly.
+
+\addcontentsline{toc}{chapter}{Index}
+\setheader{{\it INDEX}}{}{}{}{}{{\it INDEX}}%
+\setfooter{\thepage}{}{}{}{}{\thepage}%
+\printindex%
+
+\end{document}

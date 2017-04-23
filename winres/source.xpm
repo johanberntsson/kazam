@@ -1,0 +1,23 @@
+/* XPM */
+static char *source_xpm[]={
+"16 16 3 1",
+"# c #000000",
+". c #c5c2c5",
+"a c #ffffff",
+"................",
+".###############",
+".#aaaaaaaaaaaaa#",
+".#a#a##aa###aaa#",
+".#aaaaaaaaaaaaa#",
+".#a##a#a#####aa#",
+".#aaaaaaaaaaaaa#",
+".#a###a#a#a###a#",
+".#aaaaaaaaaaaaa#",
+".#a##a#####aaaa#",
+".#aaaaaaaaaaaaa#",
+".#aa#a######aaa#",
+".#aaaaaaaaaaaaa#",
+".#a######a#a#aa#",
+".#aaaaaaaaaaaaa#",
+".###############"};
+

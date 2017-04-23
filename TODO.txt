@@ -1,0 +1,40 @@
+* When objects are appened and changing locations they may defined
+before their parent object, and the game won't compile. AppendObject
+and MoveObject must be changed so that the objects are moved if
+necessary. It would be good to have a dialog box for ID where you
+can also (optionally) define parent object and source file.
+
+* All one-way directions should be considered in AutoArrange
+
+* Some menu commands should be processed by subwindows,
+such as Find/Replace by InformEditor/ObjectTree, and 
+Zoom by MapCanvas. How to redirect the events?
+
+* See if all Update() in MapWidget are necessary. Should
+be enough to update code and mRoomX/mRoomY without reparsing.
+
+* add player in browser!
+
+* Fix toolbars/statusbar toggle
+
+* Warn if trying to overwrite template (compare full paths)
+
+DirCombo:
+listar [CODE] + alla rum. val av [code] hoppar till source code.
+Man kan skriva egen kommentar (utan "") som satts in som "sdsdad".
+-- delvis, men man kan ännu inte klicka, och citationstecken används
+-- Double-clicks in properties -> source code
+(Make the stupid double-click work in notebooks! try to 
+add handlers in InformComboBox)
+
+- fix filter page
+
+- fix better documentation (html and popup)
+
+* Man borde kunna skifta mellan att visa platsernas namnsträngar
+och objektnamn.
+
+* Det vore trevligt att kunna sortera objektvyn på olika parametrar samt 
+att kunna söka i den. [SOKA implementerat]
+
+* Kolla om UNICODE fungerar. SourceFile maste antaglien skrivas om.
